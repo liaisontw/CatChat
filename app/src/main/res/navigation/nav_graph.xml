@@ -15,5 +15,9 @@
         android:name="io.liaison.catchat.HelpFragment"
         android:label="@string/help"
         tools:layout="@layout/fragment_help" />
-
+    <fragment
+        android:id="@+id/sentItemsFragment"
+        android:name="io.liaison.catchat.SentItemsFragment"
+        android:label="@string/sentItems"
+        tools:layout="@layout/fragment_sent_items" />
 </navigation>
